@@ -9,6 +9,7 @@ FieldMetadata = "bf96fef3-21d2-5d20-8afa-0e7d4c32a885"
 [extras]
 FieldDefaults = "49426c49-986f-5969-8844-d5cc96441cfc"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
 
 [targets]
-test = ["FieldDefaults", "Test"]
+test = ["FieldDefaults", "SafeTestsets", "Test"]
