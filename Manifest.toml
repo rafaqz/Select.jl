@@ -1,0 +1,7 @@
+[[FieldMetadata]]
+deps = ["Markdown", "REPL", "Test"]
+git-tree-sha1 = "8d7308011ac08b37aeaa9f8f5fa74e2e1ad42a21"
+repo-rev = "master"
+repo-url = "https://github.com/rafaqz/FieldMetadata.jl"
+uuid = "bf96fef3-21d2-5d20-8afa-0e7d4c32a885"
+version = "0.0.3+"

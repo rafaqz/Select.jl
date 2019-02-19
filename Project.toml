@@ -1,6 +1,6 @@
-authors = ["Rafael Schouten <rafaelschouten@gmail.com>"]
 name = "Select"
 uuid = "9af9b3ce-3316-11e9-0fa8-7b2e06453de4"
+authors = ["Rafael Schouten <rafaelschouten@gmail.com>"]
 version = "0.1.0"
 
 [deps]
