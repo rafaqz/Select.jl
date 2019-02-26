@@ -29,8 +29,8 @@ updateselected_builder(T, fname) = quote
     if selection != Nothing
         typ = data[n]
         n += 1
-        # Only update if it's a different type
-        if typ != fieldtype($T, $(QuoteNode(fname)))
+        # Update only if the default constructor returns a differrent type
+        if typeof(typ()) != fieldtype($T, $(QuoteNode(fname)))
             (typ(),)
         else
             (getfield(t, $(QuoteNode(fname))),)
